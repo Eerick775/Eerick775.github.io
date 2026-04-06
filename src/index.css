@@ -6,51 +6,52 @@
 
 @layer base {
   :root {
-    --background: 197 55% 12%;
-    --foreground: 40 20% 95%;
+    --background: 196 54% 10%;
+    --foreground: 210 20% 92%;
 
-    --card: 197 50% 16%;
-    --card-foreground: 40 20% 95%;
+    --card: 196 50% 14%;
+    --card-foreground: 210 20% 92%;
 
-    --popover: 197 50% 16%;
-    --popover-foreground: 40 20% 95%;
+    --popover: 196 50% 14%;
+    --popover-foreground: 210 20% 92%;
 
-    --primary: 38 70% 50%;
-    --primary-foreground: 197 55% 10%;
+    --primary: 38 65% 52%;
+    --primary-foreground: 196 54% 8%;
 
-    --secondary: 197 45% 20%;
-    --secondary-foreground: 40 15% 90%;
+    --secondary: 210 10% 28%;
+    --secondary-foreground: 210 15% 85%;
 
-    --muted: 197 40% 22%;
-    --muted-foreground: 197 20% 55%;
+    --muted: 196 40% 18%;
+    --muted-foreground: 196 15% 55%;
 
-    --accent: 38 70% 50%;
-    --accent-foreground: 197 55% 10%;
+    --accent: 38 65% 52%;
+    --accent-foreground: 196 54% 8%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 197 35% 22%;
-    --input: 197 35% 22%;
-    --ring: 38 70% 50%;
+    --border: 196 30% 20%;
+    --input: 196 30% 20%;
+    --ring: 38 65% 52%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 197 55% 8%;
-    --sidebar-foreground: 40 15% 90%;
-    --sidebar-primary: 38 70% 50%;
-    --sidebar-primary-foreground: 197 55% 10%;
-    --sidebar-accent: 197 50% 18%;
-    --sidebar-accent-foreground: 40 15% 90%;
-    --sidebar-border: 197 40% 20%;
-    --sidebar-ring: 38 70% 50%;
+    --sidebar-background: 196 54% 7%;
+    --sidebar-foreground: 210 15% 88%;
+    --sidebar-primary: 38 65% 52%;
+    --sidebar-primary-foreground: 196 54% 8%;
+    --sidebar-accent: 196 45% 16%;
+    --sidebar-accent-foreground: 210 15% 88%;
+    --sidebar-border: 196 35% 18%;
+    --sidebar-ring: 38 65% 52%;
 
     /* Custom tokens */
-    --gold: 38 70% 50%;
-    --gold-foreground: 197 55% 10%;
-    --surface-elevated: 197 50% 18%;
-    --text-dim: 197 20% 45%;
-    --teal-accent: 197 55% 30%;
+    --gold: 38 65% 52%;
+    --gold-foreground: 196 54% 8%;
+    --silver: 210 10% 75%;
+    --silver-foreground: 196 54% 10%;
+    --surface-elevated: 196 45% 16%;
+    --text-dim: 196 15% 45%;
   }
 }
 
@@ -68,6 +69,9 @@
 @layer utilities {
   .text-gold {
     color: hsl(var(--gold));
+  }
+  .text-silver {
+    color: hsl(var(--silver));
   }
   .bg-surface-elevated {
     background-color: hsl(var(--surface-elevated));

@@ -9,9 +9,13 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-card" />
       
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        {/* Logo with prominence */}
+        <div className="mb-12 flex justify-center lg:justify-start">
+          <img src={logo} alt="Erick Costa Cunha Advocacia" className="h-28 sm:h-36 w-auto drop-shadow-2xl" />
+        </div>
+
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <img src={logo} alt="Erick Costa Cunha Advocacia" className="h-16 w-auto" />
             <div>
               <p className="text-gold font-semibold text-sm uppercase tracking-widest mb-4">
                 Advogado Criminalista
@@ -22,7 +26,7 @@ const HeroSection = () => {
               </h1>
             </div>
 
-            <p className="text-lg text-muted-foreground leading-relaxed max-w-lg">
+            <p className="text-lg text-silver leading-relaxed max-w-lg">
               Acusações criminais podem destruir seu futuro. Erick Cunha luta para proteger sua liberdade, sua reputação e sua vida.
             </p>
 
@@ -46,7 +50,7 @@ const HeroSection = () => {
                 { icon: CheckCircle, text: "Estratégia Comprovada" },
                 { icon: Lock, text: "Atendimento Sigiloso e Imediato" },
               ].map((item) => (
-                <div key={item.text} className="flex items-center gap-2 text-sm text-muted-foreground">
+                <div key={item.text} className="flex items-center gap-2 text-sm text-silver">
                   <item.icon className="w-4 h-4 text-gold flex-shrink-0" />
                   <span>{item.text}</span>
                 </div>
@@ -56,7 +60,7 @@ const HeroSection = () => {
 
           <div className="hidden lg:flex justify-center">
             <div className="relative">
-              <div className="absolute -inset-4 bg-gradient-to-tr from-primary/20 via-transparent to-gold/10 rounded-2xl blur-2xl" />
+              <div className="absolute -inset-4 bg-gradient-to-tr from-primary/20 via-transparent to-[hsl(var(--silver)/.15)] rounded-2xl blur-2xl" />
               <img
                 src={heroImage}
                 alt="Erick Cunha - Advogado Criminalista"
