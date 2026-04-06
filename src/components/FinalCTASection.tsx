@@ -4,16 +4,16 @@ import { Button } from "@/components/ui/button";
 const FinalCTASection = () => {
   return (
     <section className="section-padding bg-gradient-to-b from-card to-background relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-primary/5" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[hsl(var(--gold)/.05)] via-transparent to-[hsl(var(--gold)/.05)]" />
       <div className="relative max-w-3xl mx-auto text-center space-y-8">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight">
-          Sua Defesa Começa <span className="text-primary">Agora</span>
+          Sua Defesa Começa <span className="text-gold">Agora</span>
         </h2>
 
         <p className="text-muted-foreground text-lg max-w-xl mx-auto">
           As decisões que você toma hoje vão impactar o resto da sua vida.
           <br />
-          <span className="text-foreground font-semibold">Não espere. Não adivinhe. Não arrisque.</span>
+          <strong className="text-foreground">Não espere. Não adivinhe. Não arrisque.</strong>
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

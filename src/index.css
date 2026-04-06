@@ -22,8 +22,8 @@
     --muted: 196 40% 22%;
     --muted-foreground: 196 15% 60%;
 
-    --accent: 210 15% 78%;
-    --accent-foreground: 196 55% 15%;
+    --accent: 40 55% 50%;
+    --accent-foreground: 196 55% 10%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
@@ -46,6 +46,7 @@
     /* Custom tokens */
     --silver: 210 10% 78%;
     --silver-foreground: 196 55% 15%;
+    --gold: 40 45% 55%;
     --surface-elevated: 196 45% 30%;
     --text-dim: 196 15% 55%;
   }
@@ -65,6 +66,9 @@
 @layer utilities {
   .text-silver {
     color: hsl(var(--silver));
+  }
+  .text-gold {
+    color: hsl(var(--gold));
   }
   .bg-surface-elevated {
     background-color: hsl(var(--surface-elevated));

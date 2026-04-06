@@ -11,17 +11,17 @@ const TestimonialsSection = () => {
     <section className="section-padding">
       <div className="max-w-6xl mx-auto space-y-12">
         <div className="text-center space-y-4">
-          <p className="text-silver font-bold text-sm uppercase tracking-widest">Depoimentos</p>
+          <p className="text-gold font-bold text-sm uppercase tracking-widest">Depoimentos</p>
           <h2 className="section-title">O Que Nossos Clientes Dizem</h2>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">
           {testimonials.map((t, i) => (
             <div key={i} className="bg-card border border-border rounded-xl p-8 space-y-4 relative">
-              <Quote className="w-8 h-8 text-primary/30 absolute top-6 right-6" />
+              <Quote className="w-8 h-8 text-gold/30 absolute top-6 right-6" />
               <div className="flex gap-1">
                 {Array(5).fill(0).map((_, j) => (
-                  <Star key={j} className="w-4 h-4 fill-primary text-primary" />
+                  <Star key={j} className="w-4 h-4 fill-[hsl(var(--gold))] text-gold" />
                 ))}
               </div>
               <p className="text-foreground leading-relaxed italic">"{t.text}"</p>
