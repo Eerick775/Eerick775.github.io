@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 lg:py-20">
         {/* Logo grande e centralizada */}
         <div className="mb-8 sm:mb-12 lg:mb-14 flex justify-center">
-          <img src={logo} alt="Erick Costa Cunha Advocacia" className="h-28 sm:h-44 lg:h-64 w-auto drop-shadow-2xl" />
+          <img src={logo} alt="Erick Costa Cunha Advocacia" className="h-40 sm:h-56 lg:h-80 w-auto drop-shadow-2xl" />
         </div>
 
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
